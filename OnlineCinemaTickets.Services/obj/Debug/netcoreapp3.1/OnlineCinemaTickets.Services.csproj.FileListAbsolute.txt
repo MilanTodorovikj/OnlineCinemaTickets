@@ -13,3 +13,18 @@ E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinem
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.csproj.CopyComplete
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.dll
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.deps.json
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.csproj.AssemblyReference.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.AssemblyInfoInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.AssemblyInfo.cs
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.csproj.CoreCompileInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.csproj.CopyComplete
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Services.pdb

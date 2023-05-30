@@ -14,3 +14,19 @@ E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinem
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.runtimeconfig.json
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.runtimeconfig.dev.json
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.genruntimeconfig.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.deps.json
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.runtimeconfig.json
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.runtimeconfig.dev.json
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.csproj.AssemblyReference.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.AssemblyInfoInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.AssemblyInfo.cs
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.csproj.CoreCompileInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.csproj.CopyComplete
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Repository\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Repository.genruntimeconfig.cache

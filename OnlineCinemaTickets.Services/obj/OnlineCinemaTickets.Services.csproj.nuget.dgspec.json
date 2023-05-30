@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {}
+    "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {}
   },
   "projects": {
-    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+    "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
         "projectName": "OnlineCinemaTickets.Domain",
-        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+        "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
         "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
-        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\obj\\",
+        "outputPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
+    "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
         "projectName": "OnlineCinemaTickets.Repository",
-        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+        "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
         "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
-        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\obj\\",
+        "outputPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
-                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+              "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+                "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {
+    "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
+        "projectUniqueName": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
         "projectName": "OnlineCinemaTickets.Services",
-        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
+        "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
         "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
-        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\obj\\",
+        "outputPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,11 +164,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
-                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+              "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+                "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
               },
-              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
-                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj"
+              "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
+                "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj"
               }
             }
           }

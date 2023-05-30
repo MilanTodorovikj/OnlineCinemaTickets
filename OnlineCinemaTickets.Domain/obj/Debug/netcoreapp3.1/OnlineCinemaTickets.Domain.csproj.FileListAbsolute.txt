@@ -8,3 +8,13 @@ E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinem
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.csproj.CoreCompileInputs.cache
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.dll
 E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.deps.json
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\bin\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.pdb
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.csproj.AssemblyReference.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.AssemblyInfoInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.AssemblyInfo.cs
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.dll
+C:\Users\mtodo\OneDrive\Desktop\OnlineCinemaTickets_201083\OnlineCinemaTickets.Domain\obj\Debug\netcoreapp3.1\OnlineCinemaTickets.Domain.pdb

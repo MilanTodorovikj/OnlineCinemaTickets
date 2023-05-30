@@ -910,11 +910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
       "projectName": "OnlineCinemaTickets.Domain",
-      "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+      "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
       "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
-      "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\obj\\",
+      "outputPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",

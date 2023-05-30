@@ -6143,11 +6143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
       "projectName": "OnlineCinemaTickets.Repository",
-      "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+      "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
       "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
-      "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\obj\\",
+      "outputPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6164,8 +6164,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
-              "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+            "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+              "projectPath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
             }
           }
         }

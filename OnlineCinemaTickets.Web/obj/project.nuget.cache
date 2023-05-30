@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jVmTY58hEZo7pk/a7akzMI2vy6cppPcJyY5jfpNY5UntbHm705t4r0u29BmuEUZM1mIdBPqye1myVYyXY7bx1Q==",
+  "dgSpecHash": "7ojbApv5cfLbrVmSvEiUwr8GMBRZS6V8uMeZqZFrZsQL8COxLKtS1wnbEr39W3oFXQfdOqikY0X77mJGP3zN3g==",
   "success": true,
-  "projectFilePath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj",
+  "projectFilePath": "C:\\Users\\mtodo\\OneDrive\\Desktop\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtodo\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
     "C:\\Users\\mtodo\\.nuget\\packages\\closedxml\\0.101.0\\closedxml.0.101.0.nupkg.sha512",
