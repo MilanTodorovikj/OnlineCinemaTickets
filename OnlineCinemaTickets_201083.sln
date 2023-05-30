@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCinemaTickets.Web", "OnlineCinemaTickets.Web\OnlineCinemaTickets.Web.csproj", "{51A871ED-E77D-4068-A57E-8141AD913B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCinemaTickets.Domain", "OnlineCinemaTickets.Domain\OnlineCinemaTickets.Domain.csproj", "{F781F93E-59F3-4729-BC4F-5DDF91BCDDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCinemaTickets.Repository", "OnlineCinemaTickets.Repository\OnlineCinemaTickets.Repository.csproj", "{DAD22F60-2D17-4750-A87F-1B0CF68B22D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCinemaTickets.Services", "OnlineCinemaTickets.Services\OnlineCinemaTickets.Services.csproj", "{46B60ACB-48CB-4551-B303-03ECF16AAE45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51A871ED-E77D-4068-A57E-8141AD913B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A871ED-E77D-4068-A57E-8141AD913B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A871ED-E77D-4068-A57E-8141AD913B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A871ED-E77D-4068-A57E-8141AD913B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F781F93E-59F3-4729-BC4F-5DDF91BCDDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F781F93E-59F3-4729-BC4F-5DDF91BCDDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F781F93E-59F3-4729-BC4F-5DDF91BCDDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F781F93E-59F3-4729-BC4F-5DDF91BCDDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD22F60-2D17-4750-A87F-1B0CF68B22D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD22F60-2D17-4750-A87F-1B0CF68B22D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD22F60-2D17-4750-A87F-1B0CF68B22D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD22F60-2D17-4750-A87F-1B0CF68B22D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B60ACB-48CB-4551-B303-03ECF16AAE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B60ACB-48CB-4551-B303-03ECF16AAE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B60ACB-48CB-4551-B303-03ECF16AAE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B60ACB-48CB-4551-B303-03ECF16AAE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76308267-6BFA-476F-AFBA-88315ED644CD}
+	EndGlobalSection
+EndGlobal

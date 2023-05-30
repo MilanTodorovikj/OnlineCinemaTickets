@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+        "projectName": "OnlineCinemaTickets.Domain",
+        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj",
+        "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
+        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+        "projectName": "OnlineCinemaTickets.Repository",
+        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj",
+        "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
+        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
+        "projectName": "OnlineCinemaTickets.Services",
+        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj",
+        "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
+        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+              },
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj",
+        "projectName": "OnlineCinemaTickets.Web",
+        "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\OnlineCinemaTickets.Web.csproj",
+        "packagesPath": "C:\\Users\\mtodo\\.nuget\\packages\\",
+        "outputPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtodo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Domain\\OnlineCinemaTickets.Domain.csproj"
+              },
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Repository\\OnlineCinemaTickets.Repository.csproj"
+              },
+              "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj": {
+                "projectPath": "E:\\Fakultet\\III GODINA\\VI SEMESTAR\\Milan\\Integrirani sistemi\\Domasno\\OnlineCinemaTickets_201083\\OnlineCinemaTickets.Services\\OnlineCinemaTickets.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.101.0, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "GemBox.Document": {
+              "target": "Package",
+              "version": "[35.0.1363, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.9, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

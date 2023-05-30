@@ -1,0 +1,72 @@
+﻿@model List<OnlineCinemaTickets.Domain.DomainModels.Ticket>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<OnlineCinemaTickets.Domain.Identity.OnlineCinemaUser> SignInManager
+@inject UserManager<OnlineCinemaTickets.Domain.Identity.OnlineCinemaUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form asp-action="ExportTickets" method="post">
+                <div class="form-group">
+                    <label for="Genre" class="control-label"></label>
+                    <input name="Genre" class="form-control" />
+                    <span class="text-success pt-2 pl-1">Input a specified genre to export those tickets</span>
+                    <button class="btn btn-outline-success mt-1" type="submit">Export Tickets</button>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+            <form asp-action="Index" method="post">
+                <label for="FilterDate" class="control-label"></label>
+                <input name="FilterDate" class="form-control" type="date" />
+                <span class="text-info pt-2 pl-2">Select a date to filter all tickets valid to that date</span>
+                <button class="btn btn-outline-info mt-1" type="submit">Filter tickets</button>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-2 ml-1">
+        <a class="btn btn-success" asp-action="Create">Add new Ticket</a>
+    </div>
+
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var item = Model[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+            <div class="col-md-3 m-4">
+                <div class="card" style="width: 15rem; height: 26rem;">
+                    <div class="card-header">
+                        <h3>@item.MovieName</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Date: @item.ReleaseYear</h4>
+                        <p class="card-text">Time: @item.MovieDescription</p>
+                        <p class="card-text">Seat: @item.SeatNumber</p>
+                        <p class="card-text">Genre: @item.Genre</p>
+
+                        <h6 class="pt-2">Price: $@item.TicketPrice</h6>
+                    </div>
+
+                    <div class="card-footer">
+                        <a asp-controller="Tickets" asp-action="AddTicketToCart" asp-route-id="@item.Id" class="btn btn-info">Add to Cart</a>
+                        <a asp-controller="Tickets" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                        <a asp-controller="Tickets" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mt-1">Delete</a>
+                    </div>
+                </div>
+            </div> if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+</div>

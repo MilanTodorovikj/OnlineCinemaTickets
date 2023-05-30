@@ -1,0 +1,44 @@
+﻿@model OnlineCinemaTickets.Domain.DomainModels.Order
+
+<div class="container">
+
+    <p>
+        <a class="btn btn-warning">@Model.User.Email - @Model.User.FirstName @Model.User.LastName</a>
+    </p>
+
+    @for (int i = 0; i < Model.TicketInOrders.Count(); i++)
+    {
+        var item = Model.TicketInOrders.ElementAt(i);
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+                  <div class="col-md-3 m-4">
+                      <div class="card" style="width: 15rem; height: 25rem;">
+                          <div class="card-header">
+                              <h3>@item.Ticket.MovieName</h3>
+                          </div>
+
+                          <div class="card-body">
+                              <h4 class="card-title">Release year: @item.Ticket.ReleaseYear</h4>
+                              <p class="card-text">Description: @item.Ticket.MovieDescription</p>
+                              <p class="card-text">Seat: @item.Ticket.SeatNumber</p>
+                              <p class="card-text">Genre: @item.Ticket.Genre</p>
+
+                              <h6 class="pt-3">Price: $@item.Ticket.TicketPrice</h6>
+                              <h6>Quantity: @item.Quantity</h6>
+                              <h6>Total: $@(item.Ticket.TicketPrice * item.Quantity)</h6>
+                          </div>
+                      </div>
+                  </div>
+
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+
+</div>

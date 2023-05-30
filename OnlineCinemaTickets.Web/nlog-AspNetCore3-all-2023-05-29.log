@@ -1,0 +1,313 @@
+2023-05-29 21:21:30.0074|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:21:33.0789|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:21:33.0789|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:21:33.0977|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:22:00.7413|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnlineCinemaTickets.Services.Implementation.ShoppingCartService.getShoppingCartInfo(String userId) in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\Implementation\ShoppingCartService.cs:line 57
+   at OnlineCinemaTickets.Web.Controllers.ShoppingCartController.Index() in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Controllers\ShoppingCartController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 21:23:42.3614|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:23:43.6734|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:23:43.6734|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:23:43.6734|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:34:41.9471|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:34:43.3064|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:34:43.3064|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:34:43.3064|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:35:12.5101|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at OnlineCinemaTickets.Services.Implementation.ShoppingCartService.getShoppingCartInfo(String userId) in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Services\Implementation\ShoppingCartService.cs:line 57
+   at OnlineCinemaTickets.Web.Controllers.ShoppingCartController.Index() in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Controllers\ShoppingCartController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 21:35:43.3324|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:35:44.4787|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:35:44.4787|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:35:44.4787|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:37:56.8783|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:37:58.0429|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:37:58.0429|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:37:58.0429|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:40:17.0555|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:40:18.4453|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:40:18.4473|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:40:18.4473|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:44:33.1973|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:44:34.5332|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:44:34.5332|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:44:34.5332|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 21:55:04.9341|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 21:55:06.0775|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 21:55:06.0775|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 21:55:06.0775|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:03:19.5907|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:05:59.6984|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:06:00.8963|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:06:00.8963|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:06:00.9026|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:08:28.9436|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:08:30.4176|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:08:30.4176|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:08:30.4176|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:10:42.8033|0|INFO|OnlineCinemaTickets.Services.Implementation.TicketService|ticket found ok 
+2023-05-29 22:14:53.0417|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:14:54.4499|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:14:54.4499|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:14:54.4499|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:15:03.2535|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Role REGULAR_USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at OnlineCinemaTickets.Web.Controllers.AccountController.AddRole(AddRoleModel model) in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Controllers\AccountController.cs:line 163
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 22:20:59.2888|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:21:00.7274|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:21:00.7274|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:21:00.7274|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:22:19.0341|5|WARN|Microsoft.AspNetCore.Identity.UserManager|User 95c89e80-4e89-4677-9788-5447dffd86af is already in role Administrator. 
+2023-05-29 22:28:30.9736|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:28:32.4559|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:28:32.4559|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:28:32.4621|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:28:52.4710|5|WARN|Microsoft.AspNetCore.Identity.UserManager|User 95c89e80-4e89-4677-9788-5447dffd86af is already in role Administrator. 
+2023-05-29 22:35:57.7117|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:35:58.9970|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:35:58.9970|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:35:58.9970|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:36:00.9475|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'OnlineCinemaTickets.Repository.Implementation.UserRepository' while attempting to activate 'OnlineCinemaTickets.Web.Controllers.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 22:39:33.3084|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:39:34.7182|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:39:34.7182|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:39:34.7182|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:39:41.9482|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 22:39:43.2792|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 22:39:43.2792|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 22:39:43.2792|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 22:39:49.9470|5|WARN|Microsoft.AspNetCore.Identity.UserManager|User 95c89e80-4e89-4677-9788-5447dffd86af is already in role Administrator. 
+2023-05-29 22:40:09.7119|5|WARN|Microsoft.AspNetCore.Identity.UserManager|User 854f9f42-6f15-409e-9b49-bd798b6b66b0 is already in role Regular. 
+2023-05-29 23:00:30.0619|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:00:32.9305|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:00:32.9305|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:00:32.9305|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:00:56.7553|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Genre], [t].[MovieDescription], [t].[MovieImage], [t].[MovieName], [t].[ReleaseYear], [t].[SeatNumber], [t].[TicketPrice], [t].[ValidTo]
+FROM [Tickets] AS [t] 
+2023-05-29 23:00:56.8069|10100|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'OnlineCinemaTickets.Repository.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ValidTo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:675560b8-b223-46e9-9f47-ff7e567c1eb0
+Error Number:207,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ValidTo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:675560b8-b223-46e9-9f47-ff7e567c1eb0
+Error Number:207,State:1,Class:16
+2023-05-29 23:02:08.4001|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:02:10.7846|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:02:10.7846|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:02:10.7967|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:04:14.4871|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:04:16.9418|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:04:16.9418|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:04:16.9536|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:07:25.3164|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.IO.FileNotFoundException: Could not find file 'E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Invoice.docx'.
+File name: 'E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Invoice.docx'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at .(String , Boolean )
+   at GemBox.Document.DocumentModel.Load(String path, LoadOptions options)
+   at GemBox.Document.DocumentModel.Load(String path)
+   at OnlineCinemaTickets.Web.Controllers.OrderController.CreateInvoice(Guid id) in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Controllers\OrderController.cs:line 42
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 23:08:00.5616|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:08:02.9633|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:08:02.9633|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:08:02.9781|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:08:13.5765|0|INFO|OnlineCinemaTickets.Services.Implementation.TicketService|ticket found ok 
+2023-05-29 23:08:20.0614|0|INFO|OnlineCinemaTickets.Services.Implementation.TicketService|ticket found ok 
+2023-05-29 23:10:09.5015|0|INFO|OnlineCinemaTickets.Services.Implementation.TicketService|ticket found ok 
+2023-05-29 23:14:42.7952|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:14:44.8574|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:14:44.8574|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:14:44.8686|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:23:03.4083|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:23:05.5295|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:23:05.5295|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:23:05.5434|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:28:55.3333|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\files\users1.xlsx'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OnlineCinemaTickets.Web.Controllers.Api.AdminController.ImportAllUsers(IFormFile file) in E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web\Controllers\Api\AdminController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-29 23:30:00.4424|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:30:02.6858|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:30:02.6858|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:30:02.7006|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:38:53.2479|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:38:55.2877|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:38:55.2951|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:38:55.2951|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
+2023-05-29 23:47:51.1786|0|DEBUG|OnlineCinemaTickets.Web.Program|init main 
+2023-05-29 23:47:53.4089|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-05-29 23:47:53.4089|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-05-29 23:47:53.4203|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Fakultet\III GODINA\VI SEMESTAR\Milan\Integrirani sistemi\Domasno\OnlineCinemaTickets_201083\OnlineCinemaTickets.Web 
